@@ -1,0 +1,70 @@
+
+
+/* Banner styles */
+.banner {
+    position: relative;
+    background-image: url('assets/images/hero\ image.png'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: var(--sys-primary-on-primary, #FFF);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text styles */
+.welcome-text {
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/* Styles for the highlighted text */
+.highlight-text {
+    color: var(--sys-tertiary-tertiary-container, #FFEDBD);
+}
+ .section-container {
+    border-radius: var(--spacing-none, 0px);
+    background: var(--sys-neutral-background, #F1F1F2);
+    }
+.section-title {
+    color: var(--sys-neutral-on-background, #101820);
+    font-family: 'DIN Pro', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px;
+    text-transform: uppercase;
+  }
+
+  .section-text {
+    color: var(--sys-neutral-on-background, #101820);
+    font-family: 'DIN Pro', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
+   /* Image Gallery Styles */
+   .image-gallery {
+    display: flex;
+   
+    margin-top: 20px;
+  }
+
+  .image-gallery img {
+
+    height: auto;
+    margin-left: 10px;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .image-gallery img:hover {
+    transform: scale(1.02);
+  }

@@ -1,0 +1,36 @@
+/* Regular Font */
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('assets/fonts/DINPro-Regular.woff2') format('woff2'),
+         url('assets/fonts/DINPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold Font */
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('assets/fonts/DINPro-Bold.woff2') format('woff2'),
+         url('assets/fonts/DINPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Rest of your styles */
+.banner {
+
+    font-family: 'DIN Pro', sans-serif;
+  
+}
+
+.welcome-text {
+
+    font-family: 'DIN Pro', sans-serif;
+
+}
+
+.highlight-text {
+  
+    font-family: 'DIN Pro', sans-serif;
+   
+}
